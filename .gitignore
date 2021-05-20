@@ -1,0 +1,5 @@
+config/appconfig.json
+clients/psql.pyc
+clients/__init__.pyc
+config/__init__.pyc
+queries/__init__.pyc

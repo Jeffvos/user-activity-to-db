@@ -1,0 +1,6 @@
+{
+    "insert" : "INSERT INTO jira_users (id, username, account_last_login, full_name, email) VALUES ('{}','{}','{}','{}','{}')",
+    "update" : "UPDATE jira_users set account_last_login = '{}' where id = '{}'",
+    "find" : "SELECT EXISTS(SELECT 1 from jira_users WHERE id = '{}')",
+    "delete" : "DELETE FROM jira_users WHERE id ='{}'"
+}
